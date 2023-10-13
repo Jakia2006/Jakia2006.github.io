@@ -2,3 +2,19 @@
 body {
     background-color: pink;
 }
+img {
+
+margin:auto;
+display:block;
+	}
+body h1 {
+    border: solid;
+    color: white;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+
