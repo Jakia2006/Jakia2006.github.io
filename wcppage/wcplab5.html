@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style type="text/css">
+@media screen{
+}
+body {
+    background-color: pink;
+    text-align: justify;
+}
+h1 {
+    border: solid;
+}
+
+@media screen{
+}
+	h1 {
+    background: purple;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+	<h1>Sign-up sheet for Food blog</h1>
+	
+	
+<form action="https://handlers.education.launchcode.org/request-parrot" method="post">
+  <h1<label for= "firstname"> First name:</label>
+  <input name= "firstname" type="text" id="firstname">
+	<br>
+	<br>
+  <label for="Lastname">Last Name</label>
+  <input name="Lastname" type="text" required="required" id="Lastname">
+	<br>
+	<br>
+  <label for="Username">Username</label>
+  <input name="Username" type="text" required="required" id="Username" pattern="[A-Za-z]{6,10}" placeholder="6-10 letters only">
+	<br>
+	<br>
+  <label for="Password ">Password</label>
+  <input name="Password " type="password" required="required" id="Password " pattern="[0-9A-Za-z]{6,10}" placeholder="6-10 Letters/#s">
+	<br>
+	<br>
+ <label for="Date of Birth">Date of Birth</label>
+ <input name="Date of Birth" type="date" id="Date of Birth">
+	<br>
+	<br>
+  <label for="Phone Number">Phone Number</label>
+  <input name="Phone Number" type="tel" id="Phone Number">
+	<br>
+	<br>
+  <label for="Email">Email</label>
+  <input name="Email" type="email" id="Email">
+	<br>
+	<br>
+  <label for="Personal Website">Personal Website</label>
+  <input name="Personal Website" type="url" id="Personal Website">
+	<br>
+	<br>
+  <input type="submit"><input type="reset">
+</form>
+	
+	
+	
+</body>
+</html>
