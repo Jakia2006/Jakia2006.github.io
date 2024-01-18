@@ -2,22 +2,44 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Jakia portfolio homepage</title>
+<title>homepage</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+<style type="text/css">
+	.topnav {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: darkslateblue;
+}
+.topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+	.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+	
+</style>
 <body>
-	<center><h1>This is Jakia's homepage</h1></center>
-	<center><a href="visualdesign.html">Visual Design</a></center>
-	<br>
-	<center><a href="aboutme.html">About Me</a></center>
-	<br>
-	<center><a href="digitaldesign.html">Digital Design</a></center>
-	<br>
-	<center><a href="wcppage.html">Web Client Page</a></center>
-	<br>
-	<br>
-	<br>
+	<nav class="topnav">
+	<a href="aboutme.html">About me</a>
+	<a href="wcppage/wcppage.html">WCP</a>
+	<a href="digitaldesign.html">Digital Design </a>
+	<a href="#">Visual Design </a>
+	</nav>
+	<center><h1>Homepage</h1></center>
+	
 <img src="artifacts/flower.jpeg" width="570" height="784" alt=""/>
 </body>
 </html>
