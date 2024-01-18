@@ -22,10 +22,40 @@ h1 {
 body {
     background-color: lightpink;
 }
+	.topnav {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+}
+.topnav a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+	.topnav a:hover {
+  background-color: deeppink;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: whitesmoke;
+  color: white;
+}
 </style>
 </head>
 
+	
 <body>
+	<nav class="topnav">
+	<a href="index.html">Home Hapge</a>
+	<a href="aboutme.html">About me</a>
+	<a href="digitaldesign.html">Digital Design </a>
+	<a href="../visualdesign.html">Visual Design </a>
+	</nav>
 	<center><h1>This is web client program </h1></center>
 	<br>
 	<center><a href="wcplab1.html">Lab 1</a></center>
