@@ -1,20 +1,18 @@
 @charset "UTF-8";
 body {
-    background-color: pink;
+    background-color: lightcyan;
 }
 img {
-
-margin:auto;
-display:block;
+    margin: auto;
+    display: block;
+    border: thick double #0068AE;
 	}
 body h1 {
-    border: solid;
-    color: white;
+    border: solid #0008B0;
+    color: #0007A9;
 }
 
 
 p {
     font-size: 18px;
 }
-
-
